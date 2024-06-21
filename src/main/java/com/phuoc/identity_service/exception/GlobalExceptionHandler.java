@@ -1,6 +1,7 @@
 package com.phuoc.identity_service.exception;
 
 import com.phuoc.identity_service.dto.request.ApiResponse;
+import com.phuoc.identity_service.dto.request.UserCreationRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
