@@ -30,9 +30,6 @@ public class AuthenticationController {
         return ApiResponse.<AuthenticationResponse>builder()
                 .result(result)
                 .build();
-//        ApiResponse<AuthenticationResponse> apiResponse = new ApiResponse<>();
-//        apiResponse.setResult(result);
-//        return apiResponse;
     }
 
     @PostMapping("/introspect")
